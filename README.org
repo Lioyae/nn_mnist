@@ -10,7 +10,7 @@
 使用git clone下载项目到本地
 
 #+BEGIN_SRC
-  git clone https://github.com/Lioyae/nn_mnist.gitg
+  git clone https://github.com/Lioyae/nn_mnist.git
 #+END_SRC
 
 
