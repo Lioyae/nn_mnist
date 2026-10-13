@@ -1,0 +1,41 @@
+#+TITLE:nn_mnist
+#+AUTHOR:lioyae
+
+* 简介
+本项目是一次尝试，旨在使用C语言实现识别数字的神经网络。
+代码规范不具有参考意义，仅本人C语言学习的一次尝试
+
+** 使用方法
+
+使用git clone下载项目到本地
+
+#+BEGIN_SRC
+  git clone https://github.com/Lioyae/nn_mnist.gitg
+#+END_SRC
+
+
+本人使用环境为 win11 + clang(gnu) + mingw-w64
+编译命令如下
+
+#+BEGIN_SRC
+  clang --target=x86_64-w64-windows-gnu xxx.c -o xxx.exe -lm
+#+END_SRC
+
+- 此项目尚未完善具体编译命令未贴出。
+
+#+BEGIN_SRC python :results output
+  print("hello")
+#+END_SRC
+
+#+RESULTS:
+: hello
+
+
+** TODO 目标完成事项
+- [X] MNIST数据集读取与解析
+- [X] 实现矩阵/向量基本运算
+- [X] 实现激活函数
+- [ ] 前向传播/算式函数
+- [ ] 反向传播/梯度推导
+- [ ] 梯度下降循环训练
+- [ ] 训练->保存->测试
